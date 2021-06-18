@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212136">
+
+    <LinearLayout
+
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter the code sent to  your Email"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_light"/>
+
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/et_verification_code"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_verify_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:text="Verify"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/txt_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Resend Code"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>
