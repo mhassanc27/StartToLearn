@@ -1,0 +1,39 @@
+package com.searchender.springmvc.pl.entities;
+
+
+public class StudentLoginEntity {
+	
+	private String userName;
+    private String userPassword;
+    private String sessionId;
+    
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getUserPassword() {
+		return userPassword;
+	}
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
+	}
+	public String getSessionId() {
+		return sessionId;
+	}
+	public void setSessionId(String sessionId) {
+		this.sessionId = sessionId;
+	}
+	
+	
+		
+	@Override
+	public String toString() {
+		return "StudentLoginEntity [userName=" + userName + ", userPassword=" + userPassword + ", sessionId="
+				+ sessionId + "]";
+	}
+    
+    
+
+}
